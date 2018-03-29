@@ -1,0 +1,92 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+    "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="content-type"
+content="text/html; charset=iso-8859-1" />
+<title>Creating Forms &amp; Validating</title>
+<link rel="stylesheet" href="form.css" />
+    <script type="text/javascript" src="main.js"></script>  
+</head>
+<body>
+<div id="form">
+<h1>Survey</h1>    
+<div class="nav">
+    <ul>   
+        <li><a href="index.html">Home</a></li>
+        <li class="here">Survey</li>
+    </ul> 
+</div>
+    
+    <!-- don't yet use PHP page to process form data but instead use direct email option.
+In later lecture, we will send form data to PHP page, 
+but for this to work, the files need to be stored on a server that supports PHP.
+
+<form method="post" action="showform.php" onsubmit="return validate(this)">
+-->
+<div id="formContent">
+<form method="post" action="mailto:sahitya94.5@gmail.com" onsubmit="return validate(this)">
+<p class="legend">Personal information</p>
+<fieldset id="personal">
+<label>Name:</label><input type="text" name="name" size="30"/> 
+<br />
+<label>Address:</label><input type="text" name="address" size="30" /> 
+<br />
+<label>Town/City:</label><input type="text" name="city" size="30" /> 
+<br />
+<label>State:</label><input type="text" name="state" size="2" maxlength="2" /><br /> 
+<label>Zipcode:</label><input type="text" name="zip" size="5" maxlength="5" /> 
+<br />
+
+<label>Email:</label><input type="text" name="email" size="30" />
+</fieldset>
+
+<p class="legend">Questionnaire</p>
+<fieldset id="feedback">
+<p><label>Your Age</label>
+<select name="age">
+<option value="select">select</option>
+<option value="10-15" >10-15</option>
+<option value="16-20" >16-20</option>
+<option value="21-25" >21-25</option>
+<option value="26-30" >26-30</option>
+<option value="31-40" >31-40</option>
+<option value="41-50" >41-50</option>
+<option value="51-60" >51-60</option>    
+<option value="61 plus">60 plus</option>    
+</select></p>
+
+<p id="version">
+<label>Select the OS version you prefer to use</label><br/>
+<input type="radio" name="version" value="IOS" /><span>IOS</span>
+<input type="radio" name="version" value="Windows" class="andriod"/><span>Andriod</span>
+<input type="radio" name="version" value="Andriod" class="windows" /><span>Windows</span> 
+</p>    
+
+<p id="genres"><label>Select all of your favourite genres</label><br/>
+<input type="checkbox" name="genres" value="Fiction" /><span>Fiction</span>
+<input type="checkbox" name="genres" value="Drama" /><span>Drama</span>
+<input type="checkbox" name="genres" value="Horror" /><span>Horror</span>
+<input type="checkbox" name="genres" value="Comedy" /><span>Comedy</span><br />
+</p>
+    <p id="use">
+<label>Do you wish to use this app?</label><br/>
+<input type="radio" name="use" value="Yes" /><span>Yes</span>
+<input type="radio" name="use" value="No" class="no"/><span>No</span> 
+</p>
+</fieldset>
+
+<p class="legend">Suggestions</p>
+<fieldset id="suggestions">
+<textarea
+name="comments" rows="3" cols="40">Please share any comments you have here</textarea>
+</fieldset>
+<p id="buttons">
+<input type="submit" value="Submit"  />
+<input type="reset" value="Reset" id="onReset"/></p>
+<div id="afterSubmitting"></div>    
+</form>
+</div>    
+</div>
+</body>
+</html>

@@ -1,0 +1,218 @@
+@charset "utf-8";
+/* CSS Document */
+
+/* Beginning of CSS "Clean Slate" */
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+	margin-top: 10px;
+}
+
+/* END of CSS "Clean Slate" */
+
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+
+body{
+    font-family:"Helvetica Neue", Helvetica, Georgia, sans-serif;
+    font-size: 1.25em;
+    }
+#pageContent{
+    background-color: #ccc;
+    margin: 5px 25px 5px 25px;
+    width:1210px;
+    padding:20px;
+}
+#mainContent{
+text-align: justify;
+}
+
+h1{
+    font-family: Georgia, "Helvetica Neue", Proza, sans-serif;
+    font-size:2.4em;
+    font-weight:bold;
+    text-align: center;
+    color:#000;
+    font-weight: bolder;
+    margin: 0px 0px 0px 0px;
+    background-color: #888;
+    padding:6px 0px 6px 0px;
+}
+h2{
+    font-family:Georgia, sans-serif;
+    font-weight: bold;
+    font-size: 1.3em;
+    text-decoration: underline;
+}
+h3{
+    font-family:Georgia, sans-serif;
+    text-decoration: underline;
+    font-weight:bold;
+}
+#mainContent h2{
+     margin:10px 0px 5px 10px;
+}
+article{
+ float:left;
+ width:618px;
+}
+p{
+    margin-bottom: 10px;
+    font-weight: normal;
+}
+header p{
+    font-family:Georgia, sans-serif;
+    text-align: center;
+    background-color: #000000;
+    color:#ffffff;
+    font-size:1.3em;
+    padding:8px 0px 8px 0px;
+    width:12em;
+    margin: 0px auto 0px auto;
+}
+nav{
+    margin:25px 0px 30px 0px;
+}
+nav li{
+    font-size: 18px;
+    list-style-type: none;
+    background-color:#000;
+    display:inline;
+    font-weight: bolder;
+    color:lightgoldenrodyellow;
+    padding:5px;
+    border: 1px solid #111;
+    border-radius: 4px;
+
+}
+nav li a{
+    text-decoration: none;
+    color: #fff;
+}
+.logo1{
+    float:left;
+    height:80px;
+    width:80px;
+    margin:10px 20px 0px 10px;
+}
+.dark{
+    background-color:#666;
+}
+h3+ul li{
+    list-style-type: disc;
+    margin-left: 280px;
+}
+h2+ul li{
+    list-style-type: disc;
+    margin-left: 20px;
+}
+.roll{
+    width:250px;
+    height:400px;
+    float: left;
+    margin: 2px 10px 2px 0px;
+}
+
+.stat{
+    margin-top: 20px;
+}
+
+#diff th, td{
+	background-color: #ccc;
+	border: 1px solid #000;
+	text-align: center;
+}
+aside{
+	font-family: Georgia, sans-serif;
+	font-size: 1em;
+	float:right;
+	width:540px;
+	margin:15px 0px 15px 15px;
+	border-left: 1px solid #666;
+	padding-left: 15px;
+	height:1100px;
+}
+aside h2{
+margin-top: 10px;
+}
+#diff th{
+font-size: 1.2em;
+font-weight: bold;
+height:40px;
+text-align: center;
+}
+#diff p, #diff td{
+	font-weight: normal;
+}
+footer{
+	clear:both;
+	margin:20px;
+	text-align: center;
+}
+footer ul li{
+	list-style-type: none;
+	float:left;
+	background-color: black;
+	padding:5px;
+	border-radius: 4px;
+	margin:5px 10px 0px 10px;
+}
+footer a{
+	text-decoration:none;
+	color:#fff;
+}
+footer a:hover{
+	background-color: blue;
+}
+footer li:first-child{
+	margin-left: 460px;
+}
+h3{
+	margin-top: 50px;
+}
+span{
+	text-decoration: underline;
+	font-weight: bold;
+
+}
+td{
+	padding:5px;
+}

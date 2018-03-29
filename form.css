@@ -1,0 +1,198 @@
+@charset "utf-8";
+/* CSS Document */ 
+
+/* Beginning of CSS "Clean Slate" */
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+body {
+	line-height: 1;
+    
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/* END of CSS "Clean Slate" */
+
+
+body{  
+    font-family:Georgia, sans-serif;
+    font-size: 1.25em;
+    }
+#form{
+     background-image: url(6699CC.jpg);
+    margin: 5px 5px 5px 42px;
+    width:729px;
+    padding:8px;
+    border-radius: 4px;
+}
+#formContent{
+    margin-left:30px; 
+}
+.nav{
+    margin-bottom:50px;
+}
+.nav li{
+    font-size: 18px;
+    list-style-type: none;
+    background-color:#000;
+    display:inline;
+    font-weight: bolder;
+    color:lightgoldenrodyellow;
+    padding:5px;
+    border: 1px solid #111;
+    border-radius: 4px;
+    
+}
+.nav li a{
+    text-decoration: none;
+    color: #fff;
+}
+h1{
+    font-family: Georgia, "Helvetica Neue", Proza, sans-serif;
+    font-size:2.4em;
+    font-weight:bold;
+    text-align: center;
+    color:#fff;
+    font-weight: bolder;
+    background-color:#000;
+    padding:6px 0px 6px 0px;
+    border: 1px ;
+    border-radius: 6px;
+    margin-bottom: 40px;
+}
+p {
+    margin:0 0 1em 0;
+    padding:0;
+    font-size:90%;
+}
+fieldset {
+    margin-bottom:1em;
+    margin-top:-0.7em;
+    width:24em;
+    padding-top:1.5em;
+    background-color:#6082B6;
+    border-radius: 4px;
+}
+
+p.legend {
+    background-color:#000;
+    color:#fff;
+    padding:.2em .3em;
+    font-size:1.2em;
+    border:2px;
+    position:relative;
+    width:10em;
+    margin:1em 0em 0em 1em;
+    border-radius: 4px;
+}
+#personal {
+    background-color:#ff9933;
+}
+
+#feedback {
+    background:#fff;
+}
+#suggestions {
+    background-color:#090;
+}
+
+
+#personal label {
+    font-family: Georgia, sans-serif;
+    position:absolute;
+    left:100px;
+    padding-top:.2em;
+    font-size: 0.9em;
+}
+#personal input {
+    margin-left:9em;
+    line-height:1.4em;
+    margin-bottom:0.2em;
+}
+
+#feedback label {
+    font-family: Georgia, sans-serif;
+    position:absolute;
+    left:100px;  
+}
+select {
+    margin-left:7.5em;
+}
+#version input {
+    margin:0.6em 0em 0em 2em;
+}
+#version .andriod{
+margin-left: 48px;    
+}
+#version .windows{
+margin-left: 19px;    
+}
+#genres input {
+    margin:0.6em 0em 0em 2em;
+}
+#use input{
+    margin:0.6em 0em 0em 2em;
+}
+#use .no{
+    margin-left:50px;
+}
+textarea {
+    font:.8em Georgia, "Trebuchet MS", Verdana, sans-serif;
+    width:29em;
+    padding:.2em;
+}
+
+input[type="submit"], input[type="reset"] {
+    background-color:#000;
+    color:#fff;
+    font:1.2em Georgia, "Trebuchet MS", Verdana, sans-serif;
+    border:1px solid;
+    border-radius:4px;
+}
+
+#buttons {
+    margin-left:9em; 
+}
+span{
+    font-family: Georgia, sans-serif;
+    font-size: 0.9em;
+}
+#afterSubmitting{
+    font:Georgia;
+    font-weight: bold;
+    color: blue;
+    margin-left: 50px;
+    font-style: italic;
+}
